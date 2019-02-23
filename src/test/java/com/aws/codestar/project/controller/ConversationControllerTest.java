@@ -1,6 +1,7 @@
 package com.aws.codestar.project.controller;
 
 
+import com.aws.codestar.project.controller.ConversationController;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
