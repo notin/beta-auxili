@@ -1,0 +1,28 @@
+spring:
+  jpa:
+#    database: MARIADB
+    show-sql: false
+    hibernate:
+      dll: true
+      ddl-auto: create
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+  datasource:
+    platform: mariadb
+    driverClassName: org.mariadb.jdbc.Driver
+    url: jdbc:mariadb://test2.cqpwzda9ijyr.us-east-2.rds.amazonaws.com:3306/test
+    username: admin
+    password: l33tSp3ak9(
+    autoReconnect: true
+    maxActive: 500
+
+  logging:
+    level: DEBUG
+
+  server:
+    session:
+    sessionTimeout: 60
+    cookie:
+      max-age: 36000
+      timeout: 36000

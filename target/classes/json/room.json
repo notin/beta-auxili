@@ -1,0 +1,15 @@
+{
+  "provider": [
+    {
+      "timestamps": null,
+      "checkin time": null,
+      "available": false,
+      "location": null,
+      "userId": null,
+      "id": null
+    }
+  ],
+  "id": "bfd8fe6d-c02e-4229-a703-1b2ad99a7474",
+  "name": null,
+  "requesterId": null
+}
